@@ -1,3 +1,5 @@
+<p align="center"><img src="img/v-shell-logo.png" width="432" alt="&gt;_ v-Shell"></p>
+
 # v-Shell security core
 
 This is the security-relevant code of [v-Shell](https://v-shell.cerebro.host), an SSH terminal for
