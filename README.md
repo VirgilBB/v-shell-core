@@ -1,6 +1,6 @@
 # v-Shell security core
 
-This is the security-relevant code of [v-Shell](https://v-shell.pages.dev), an SSH terminal for
+This is the security-relevant code of [v-Shell](https://v-shell.cerebro.host), an SSH terminal for
 iPhone and iPad. It is published so anyone can read it, run its tests and look for
 vulnerabilities. It is **source-available, not open source**: see [License](#license).
 
@@ -16,13 +16,13 @@ vulnerabilities. It is **source-available, not open source**: see [License](#lic
   support report redaction.
 - `Packages/swift-nio-ssh`: Apple's swift-nio-ssh 0.15.0 (Apache 2.0) with one patch for
   keyboard-interactive sign-in. Every change is listed in `VSHELL-PATCHES.md`.
-- `server/setup.sh`: the optional setup script on v-shell.pages.dev. Its SHA256 is in
+- `server/setup.sh`: the optional setup script on v-shell.cerebro.host. Its SHA256 is in
   `server/setup.sh.sha256`; it must match the one on the website.
 - Tests, including live tests against a real OpenSSH server in Docker.
 
 ## What is not here
 The app's screens (SwiftUI) are not published. Some protections live there and are
-described on [v-shell.pages.dev/security](https://v-shell.pages.dev/security): the
+described on [v-shell.cerebro.host/security](https://v-shell.cerebro.host/security): the
 "Is this your computer?" prompt, the Face ID lock, secure typing at password prompts, and
 how links, QR codes and the clipboard are shown before anything connects.
 
@@ -48,4 +48,4 @@ See [SECURITY.md](SECURITY.md).
   research in [SECURITY.md](SECURITY.md). You may read, run and test it. You may not
   redistribute it or ship it in another product.
 - `Packages/swift-nio-ssh`: Apache 2.0 (its own `LICENSE.txt`), including our patch.
-- Required Notice: Copyright 2026 Cerebro AI (https://v-shell.pages.dev). v-Shell is a trademark of Cerebro AI.
+- Required Notice: Copyright 2026 Cerebro AI (https://v-shell.cerebro.host). v-Shell is a trademark of Cerebro AI.
