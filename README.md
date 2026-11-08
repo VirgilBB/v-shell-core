@@ -1,4 +1,4 @@
-<p align="center"><img src="img/v-shell-logo.png" width="376" alt="&gt;_ v-Shell"></p>
+<p align="center"><img src="img/v-shell-logo.png" width="456" alt="&gt;_ v-Shell"></p>
 
 # v-Shell security core
 
